@@ -11,6 +11,7 @@ input.onButtonPressed(Button.B, function () {
     basic.showNumber(suma)
 })
 input.onLogoEvent(TouchButtonEvent.Pressed, function () {
+    texto = "hola"
     basic.showString(texto)
 })
 let resta = 0
